@@ -178,7 +178,7 @@ def add_to_manifest(repositories, fallback_branch = None):
 
         print('Adding dependency: LiquidDark-Devices/%s -> %s' % (repo_name, repo_target))
         project = ElementTree.Element("project", attrib = { "path": repo_target,
-            "remote": "ldd", "revision": "n", "name": "%s" % repo_name })
+            "remote": "%s", "revision": "%s", "name": "%s" % repo_name })
 
         if 'branch' in repository:
             project.set('revision',repository['branch'])
@@ -292,4 +292,4 @@ else:
             print("Done")
             sys.exit()
 
-print("Repository for %s not found in the CyanogenMod Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml." % device)
+print("Repository for %s not found in the LiquidDark-Devices Github repository list. If this is in error, you may need to manually add it to your local_manifests/roomservice.xml." % device)
