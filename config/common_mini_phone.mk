@@ -1,7 +1,7 @@
-$(call inherit-product, vendor/xenonhd/config/common_mini.mk)
+$(call inherit-product, vendor/liquid/config/common_mini.mk)
 
-# Required XenonHD packages
+# Required Liquid packages
 PRODUCT_PACKAGES += \
     LatinIME
 
-$(call inherit-product, vendor/xenonhd/config/telephony.mk)
+$(call inherit-product, vendor/liquid/config/telephony.mk)

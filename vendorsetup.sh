@@ -1,6 +1,9 @@
-add_lunch_combo xenonhd_angler-userdebug
-add_lunch_combo xenonhd_endeavoru-userdebug
-add_lunch_combo xenonhd_grouper-userdebug
-add_lunch_combo xenonhd_kenzo-userdebug
-add_lunch_combo xenonhd_m7-userdebug
-add_lunch_combo xenonhd_m8-userdebug
+add_lunch_combo liquid_angler-userdebug
+add_lunch_combo liquid_bullhead-userdebug
+add_lunch_combo liquid_endeavoru-userdebug
+add_lunch_combo liquid_grouper-userdebug
+add_lunch_combo liquid_hammerhead-userdebug
+add_lunch_combo liquid_kenzo-userdebug
+add_lunch_combo liquid_m7-userdebug
+add_lunch_combo liquid_m8-userdebug
+add_lunch_combo liquid_mako-userdebug

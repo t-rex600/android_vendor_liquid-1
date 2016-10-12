@@ -1,2 +1,2 @@
-# Inherit common XenonHD stuff
-$(call inherit-product, vendor/xenonhd/config/common_mini.mk)
+# Inherit common Liquid stuff
+$(call inherit-product, vendor/liquid/config/common_mini.mk)

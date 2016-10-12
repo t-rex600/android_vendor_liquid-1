@@ -1,7 +1,7 @@
 #
 # This policy configuration will be used by all products that
-# inherit from XenonHD
+# inherit from Liquid
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/xenonhd/sepolicy
+    vendor/liquid/sepolicy

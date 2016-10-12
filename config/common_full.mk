@@ -1,5 +1,5 @@
-# Inherit common XenonHD stuff
-$(call inherit-product, vendor/xenonhd/config/common.mk)
+# Inherit common Liquid stuff
+$(call inherit-product, vendor/liquid/config/common.mk)
 
 PRODUCT_SIZE := full
 

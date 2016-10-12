@@ -1,11 +1,11 @@
 #
-# XenonHD Audio Files
+# Liquid Audio Files
 #
 
-ALARM_PATH := vendor/xenonhd/prebuilt/common/media/audio/alarms
-NOTIFICATION_PATH := vendor/xenonhd/prebuilt/common/media/audio/notifications
-RINGTONE_PATH := vendor/xenonhd/prebuilt/common/media/audio/ringtones
-UI_PATH := vendor/xenonhd/prebuilt/common/media/audio/ui
+ALARM_PATH := vendor/liquid/prebuilt/common/media/audio/alarms
+NOTIFICATION_PATH := vendor/liquid/prebuilt/common/media/audio/notifications
+RINGTONE_PATH := vendor/liquid/prebuilt/common/media/audio/ringtones
+UI_PATH := vendor/liquid/prebuilt/common/media/audio/ui
 
 # Alarms
 PRODUCT_COPY_FILES += \
